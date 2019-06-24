@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>DTU串口协议配置</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,0">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout" columnstretch="0,0,0,0,0">
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_IV">
+         <property name="text">
+          <string>向量(IV)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>串口</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QComboBox" name="comboBox"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="lineEdit_iv"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_ID">
+         <property name="text">
+          <string>项目(ID)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="lineEdit_key"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_KEY">
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>2</height>
+          </size>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="text">
+          <string>秘钥(KEY)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLineEdit" name="lineEdit_id"/>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>打开串口</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>566</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
